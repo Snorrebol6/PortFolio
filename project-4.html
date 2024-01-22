@@ -15,13 +15,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 <body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-down"></i>
+    </div>
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="index.html">Port<span>Folio</span></a></div>
             <ul class="menu">
                 <li><a href="index.html" class="menu-btn">Home</a></li>
                 <li><a href="#Projects" class="menu-btn">Projects</a></li>
-                <li><a href="#skills" class="menu-btn">the project</a></li>
+                <li><a href="#skills" class="menu-btn">Bon Appmobile</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -29,35 +32,6 @@
             </div>
         </div>
     </nav>
-    <!-- skills section start -->
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">Bon Appmobile</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">Project summary</div>
-                    <p>Bon Appmobile is a VR cooking simulator. The goal of the game is to bake pizzas and deliver them to houses. You drive around in a food truck in a large open world, where you can decide where to go. </p>
-                </div>
-                <div class="column right">
-                    <video height="450" width="675" poster="images/poster_BonApp-Mobile.png" src="https://www.youtube.com/watch?v=GHDNuUOKmBM" controls></video>
-                </div>
-            </div>
-        </div>
-        <div class="max-width">
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">My work/what I learned</div>
-                    <p>I, together with Mathijs(a Student from Grafisch Lyceum Utrecht), created the sauce gun. First, it checks if you have picked it up and with which hand. The controls activate based on the hand you're holding it with. When you press the shooting button, the particle system activates. If the particle hits something, it triggers an event. When that event is called, it checks with a sphere cast whether it's a pizza. If it is, a function is called to display the sauce on the pizza.<br><br>
-                        We also got around to making an ordering system where my primary task was to create the delivery point with randomized ingredients for the pizza. Sadly, we never got the time to finish and implement it.
-                    </p>
-                </div>
-                <div class="column right">
-                    <iframe height="450" width="675" src="https://blueprintue.com/render/kc1n6gau/" scrolling="no" allowfullscreen></iframe>
-                    <iframe height="450" width="675" src="https://blueprintue.com/render/ax_ro4rr/" scrolling="no" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- project section start -->
     <section class="Projects" id="Projects">
         <div class="max-width">
@@ -76,7 +50,7 @@
                     <div class="box">
                         <a href="project-5.html"><div class="box">
                             <img src="images/Killcode.png" alt="">
-                            <div class="text">Killcode</div>
+                            <div class="text">side scroller tryout</div>
                             <p>A solo project that i made in the Unreal engine</p>
                         </div></a>
                     </div>
@@ -94,6 +68,38 @@
                         <div class="text">Crystalline</div>
                         <p>a team project that was made with a couple of classmates with Unity</p>
                     </div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Bon Appmobile</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Project summary</div>
+                    <p>Bon Appmobile is a VR cooking simulator. The goal of the game is to bake pizzas and deliver them to houses. You drive around in a food truck in a large open world, where you can decide where to go.<br><br>
+                        we worked in a team of 19 students of the MA and GLU for 3 days per week over the span of 10 weeks which was a very exciting oppertunity as it had it many challenges and obstacles.
+                    </p>
+                </div>
+                <div class="column right">
+                    <video height="400" width="675" src="images/Gameplay-Trailer-with-Music.mp4" controls></video>
+                </div>
+            </div>
+        </div>
+        <div class="max-width">
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My work/what I learned</div>
+                    <p>I, together with Mathijs(a Student from Grafisch Lyceum Utrecht), created the sauce gun. First, it checks if you have picked it up and with which hand. The controls activate based on the hand you're holding it with. When you press the shooting button, the particle system activates. If the particle hits something, it triggers an event. When that event is called, it checks with a sphere cast whether it's a pizza. If it is, a function is called to display the sauce on the pizza.<br><br>
+                        We also got around to making an ordering system where my primary task was to create the delivery point with randomized ingredients for the pizza.
+                        <iframe height="350" width="1000" src="https://blueprintue.com/render/kc1n6gau/" scrolling="no" allowfullscreen></iframe>
+                        <iframe height="350" width="1000" src="https://blueprintue.com/render/ax_ro4rr/" scrolling="no" allowfullscreen></iframe>
+                    </p>
+                </div>
+                <div class="column right">
+                   
                 </div>
             </div>
         </div>
@@ -123,7 +129,7 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">edrikkert@outlook.com</div>
+                                <div class="sub-title"><a href="mailto:contact@edgarrikkert.dev">edrikkert@outlook.com</div></a>
                             </div>
                         </div>
                         <div class="row">

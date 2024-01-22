@@ -15,13 +15,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 <body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-down"></i>
+    </div>
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="index.html">Port<span>Folio</span></a></div>
             <ul class="menu">
                 <li><a href="index.html" class="menu-btn">Home</a></li>
                 <li><a href="#Projects" class="menu-btn">Projects</a></li>
-                <li><a href="#skills" class="menu-btn">The project</a></li>
+                <li><a href="#skills" class="menu-btn">side scroller tryout</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -29,39 +32,6 @@
             </div>
         </div>
     </nav>
-    <!-- skills section start -->
-    <section class="skills" id="skills">
-        <div class="max-width">
-            <h2 class="title">Killcode</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">Project summary</div>
-                    <p>This project was a special assignment for me as i had the freedom to decide what kind of game i wanted to make and wanted to learn. for that reason i chose to make a side scroller shooter with the insperation of Broforce and Zombotron. </p>
-                </div>
-                <div class="column right">
-                    <img src="images/Killcode-walk.gif" alt="" style="width:100%">
-                </div>
-            </div>
-        </div>
-        <div class="max-width">
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">My work/what I learned</div>
-                    <p>For this project, I made a basic template for a side-scroller in Unreal Engine 5 since UE5 doesn't have it, so I needed to make sure the camera was located at the right angle and stays in that position.<br><br>
-                        For the rotation of the character, I used a boolean and the new enhanced input action and mapping context. So if moveX is negative, flip the mesh's rotation.<br><br>
-                        For the shooting, I made a custom category in the player's settings so I can change on the fly where the bullet spawns and combine that with the current player location so it knows to spawn it a certain distance from the player.
-                    </p>
-                    <a href="https://github.com/Snorrebol6/Killcode"><div class="box">github</div></a>
-                </div>
-                <div class="column right">
-                    <iframe height="450" width="675" src="https://blueprintue.com/render/7g_6khc3/" scrolling="no" allowfullscreen></iframe>
-                    <img src="images/ShootPressed-check.png" alt="" style="width:100%">
-                    <img src="images/Shooting-settings.png" alt="" style="width:100%">
-                    <img src="images/Killcode-shoot.gif" alt="" style="width:100%">
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- project section start -->
     <section class="Projects" id="Projects">
         <div class="max-width">
@@ -80,7 +50,7 @@
                     <div class="box">
                         <a href="project-5.html"><div class="box">
                             <img src="images/Killcode.png" alt="">
-                            <div class="text">Killcode</div>
+                            <div class="text">side scroller tryout</div>
                             <p>A solo project that i made in the Unreal engine</p>
                         </div></a>
                     </div>
@@ -98,6 +68,38 @@
                         <div class="text">Crystalline</div>
                         <p>a team project that was made with a couple of classmates with Unity</p>
                     </div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">side scroller tryout</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Project summary</div>
+                    <p>This project was a special assignment for me as i had the freedom to decide what kind of game i wanted to make and wanted to learn. for that reason i chose to make a side scroller shooter with the insperation of Broforce and Zombotron. </p>
+                </div>
+                <div class="column right">
+                    <img src="images/Killcode-shoot.gif" alt="" style="width:100%">
+                    <img src="images/ShootPressed-check.png" alt="" style="width:100%">
+                </div>
+            </div>
+        </div>
+        <div class="max-width">
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My work/what I learned</div>
+                    <p>For this project, I made a basic template for a side-scroller in Unreal Engine 5 since UE5 doesn't have it, so I needed to make sure the camera was located at the right angle and stays in that position.
+                        For the rotation of the character, I used a boolean and the new enhanced input action and mapping context. So if moveX is negative, flip the mesh's rotation.
+                        For the shooting, I made a custom category in the player's settings so I can change on the fly where the bullet spawns and combine that with the current player location so it knows to spawn it a certain distance from the player.
+                    </p>
+                    <a href="https://github.com/Snorrebol6/Killcode"><div class="box">github</div></a><br><br>
+                    <iframe height="350" width="1000" src="https://blueprintue.com/render/7g_6khc3/" scrolling="no" allowfullscreen></iframe>
+                </div>
+                <div class="column right">
+                    <img src="images/Shooting-settings.png" alt="" style="width:100%">
                 </div>
             </div>
         </div>
@@ -127,7 +129,7 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">edrikkert@outlook.com</div>
+                                <div class="sub-title"><a href="mailto:contact@edgarrikkert.dev">edrikkert@outlook.com</div></a>
                             </div>
                         </div>
                         <div class="row">
